@@ -173,9 +173,9 @@ over a constructed 512 bit field.)
 import ecdsa
 import hashlib
 
-from encoding import *
-from eccrypt import *
-from SecurityViolationException import *
+from .encoding import *
+from .eccrypt import *
+from -SecurityViolationException import *
 
 
 class Key:
