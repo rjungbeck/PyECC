@@ -4,7 +4,7 @@
 #   Encodings and Formats for Elliptic Curve Cryptography
 #
 
-import StringIO
+from six import StringIO
 
 
 # Big-Endian Encoding
